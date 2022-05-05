@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="img/space.jpg">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="blog.html">Blog</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header id="welcome-section">
+        <style>
+            input[type=text], select {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+            
+            input[type=submit] {
+              width: 100%;
+              background-color: #00b7ff;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #006efd;
+            }
+            
+            div {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+            </style>
+<main id="portfolio">
+	<section id="projects">
+		<div class="project-tile">
+		<a href="#" target="_blank"><img src="img/img1.jpg"></a>
+			<div>Project1</div>
+		</div>
+		<div class="project-tile">
+		<a href="#" target="_blank"><img src="img/img2.png"></a>
+			<div>Project2</div>
+		</div>
+		<div class="project-tile">
+		<a href="#" target="_blank"><img src="img/img3.png"></a>
+			<div>Project3</div>
+		</div>
+		<div class="project-tile">
+		<a href="#" target="_blank"><img src="img/img4.jpg"></a>
+			<div>Project4</div>
+		</div>
+		<div class="project-tile">
+		<a href="#" target="_blank"><img src="img/img5.jpg"></a>
+			<div>Project5</div>
+		</div>
+		<div class="project-tile">
+		<a href="#" target="_blank"><img src="img/img6.jpg"></a>
+			<div>Project6</div>
+		</div>
+	</section>
+	<button><a href="#" target="_blank">More Projects >></a></button>
+</main>
+
+<script type="text/javascript">
+	const projectName = 'portfolio';
+localStorage.setItem('example_project', 'Personal Portfolio');
+</script>
+</body>
+</html>
